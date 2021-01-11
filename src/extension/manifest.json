@@ -6,14 +6,14 @@
     "permissions": [
       "activeTab",
       "debugger",
-      "https://bbb.cs.hm.edu/"
+      "https://teach.informatik.tu-freiberg.de/"
     ],
     "web_accessible_resources": [
         "icon.svg"
     ],
     "content_scripts": [
       {
-        "matches": ["*://bbb.cs.hm.edu/*"],
+        "matches": ["*://teach.informatik.tu-freiberg.de/*"],
         "run_at": "document_end",
         "js": [
             "content-script.js",
